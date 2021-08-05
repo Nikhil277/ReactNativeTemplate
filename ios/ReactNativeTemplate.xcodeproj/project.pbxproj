@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* ReactNativeTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeTemplateTests.m */; };
 		07AC38543838CBF30F96AB97 /* libPods-ReactNativeTemplate-ReactNativeTemplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CBE935D920D8E383683EF0 /* libPods-ReactNativeTemplate-ReactNativeTemplateTests.a */; };
+		12C35C4192814AB4923711B3 /* SFUIDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF168DE23ABD4058A58E0C64 /* SFUIDisplay-Regular.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1844C96CCE5D4CF891ED6FFE /* SFUIDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C265A099A7224332879153AF /* SFUIDisplay-Bold.otf */; };
+		1CBFA69BC0064BEFAC486054 /* SFUIDisplay-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1DFB4C1D5B674F96BDABA3FA /* SFUIDisplay-Ultralight.otf */; };
+		4F05F474674E47C5ACF7E2A5 /* SFUIDisplay-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = ABCDA9E738CE41D1BC2BE221 /* SFUIDisplay-Thin.otf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		9A45ECF038D287244813693F /* libPods-ReactNativeTemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F1EA5A3DE94E99A6C91658 /* libPods-ReactNativeTemplate.a */; };
+		A4E11667918A4D66BB31BFC4 /* SFUIDisplay-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = A86385903BF344619F204262 /* SFUIDisplay-Heavy.otf */; };
+		AEC4BC1E8693411A89538D72 /* SFUIDisplay-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = E1E9939D901A4EDEB3693E79 /* SFUIDisplay-Light.otf */; };
+		CF4B27DA62E6446A97925BB4 /* SFUIDisplay-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = B2A70B6A7FBA413B805831CF /* SFUIDisplay-Medium.otf */; };
+		E557C11BF1994BAD8CB73567 /* SFUIDisplay-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EBF2A110B0A8425B81CFB574 /* SFUIDisplay-Semibold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +46,19 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativeTemplate/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNativeTemplate/main.m; sourceTree = "<group>"; };
 		13CBE935D920D8E383683EF0 /* libPods-ReactNativeTemplate-ReactNativeTemplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeTemplate-ReactNativeTemplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DFB4C1D5B674F96BDABA3FA /* SFUIDisplay-Ultralight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Ultralight.otf"; path = "../src/resources/fonts/SFUIDisplay-Ultralight.otf"; sourceTree = "<group>"; };
 		27821EED4F4537B362E95AEF /* Pods-ReactNativeTemplate-ReactNativeTemplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTemplate-ReactNativeTemplateTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeTemplate-ReactNativeTemplateTests/Pods-ReactNativeTemplate-ReactNativeTemplateTests.release.xcconfig"; sourceTree = "<group>"; };
 		37E958D1B0E2B797E862CEFE /* Pods-ReactNativeTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTemplate.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeTemplate/Pods-ReactNativeTemplate.release.xcconfig"; sourceTree = "<group>"; };
 		39F1EA5A3DE94E99A6C91658 /* libPods-ReactNativeTemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeTemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNativeTemplate/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A86385903BF344619F204262 /* SFUIDisplay-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Heavy.otf"; path = "../src/resources/fonts/SFUIDisplay-Heavy.otf"; sourceTree = "<group>"; };
+		ABCDA9E738CE41D1BC2BE221 /* SFUIDisplay-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Thin.otf"; path = "../src/resources/fonts/SFUIDisplay-Thin.otf"; sourceTree = "<group>"; };
+		B2A70B6A7FBA413B805831CF /* SFUIDisplay-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Medium.otf"; path = "../src/resources/fonts/SFUIDisplay-Medium.otf"; sourceTree = "<group>"; };
+		C265A099A7224332879153AF /* SFUIDisplay-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Bold.otf"; path = "../src/resources/fonts/SFUIDisplay-Bold.otf"; sourceTree = "<group>"; };
+		E1E9939D901A4EDEB3693E79 /* SFUIDisplay-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Light.otf"; path = "../src/resources/fonts/SFUIDisplay-Light.otf"; sourceTree = "<group>"; };
+		EBF2A110B0A8425B81CFB574 /* SFUIDisplay-Semibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Semibold.otf"; path = "../src/resources/fonts/SFUIDisplay-Semibold.otf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EF168DE23ABD4058A58E0C64 /* SFUIDisplay-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Regular.ttf"; path = "../src/resources/fonts/SFUIDisplay-Regular.ttf"; sourceTree = "<group>"; };
 		FFDEBF4F34B09D30E06778AE /* Pods-ReactNativeTemplate-ReactNativeTemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTemplate-ReactNativeTemplateTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeTemplate-ReactNativeTemplateTests/Pods-ReactNativeTemplate-ReactNativeTemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,6 +138,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				A533B66B6A39C6905FB7FA3F /* Pods */,
+				F998AAE871AA4EE789BF9D15 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -146,6 +163,22 @@
 				27821EED4F4537B362E95AEF /* Pods-ReactNativeTemplate-ReactNativeTemplateTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F998AAE871AA4EE789BF9D15 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C265A099A7224332879153AF /* SFUIDisplay-Bold.otf */,
+				A86385903BF344619F204262 /* SFUIDisplay-Heavy.otf */,
+				E1E9939D901A4EDEB3693E79 /* SFUIDisplay-Light.otf */,
+				B2A70B6A7FBA413B805831CF /* SFUIDisplay-Medium.otf */,
+				EF168DE23ABD4058A58E0C64 /* SFUIDisplay-Regular.ttf */,
+				EBF2A110B0A8425B81CFB574 /* SFUIDisplay-Semibold.otf */,
+				ABCDA9E738CE41D1BC2BE221 /* SFUIDisplay-Thin.otf */,
+				1DFB4C1D5B674F96BDABA3FA /* SFUIDisplay-Ultralight.otf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +277,14 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				1844C96CCE5D4CF891ED6FFE /* SFUIDisplay-Bold.otf in Resources */,
+				A4E11667918A4D66BB31BFC4 /* SFUIDisplay-Heavy.otf in Resources */,
+				AEC4BC1E8693411A89538D72 /* SFUIDisplay-Light.otf in Resources */,
+				CF4B27DA62E6446A97925BB4 /* SFUIDisplay-Medium.otf in Resources */,
+				12C35C4192814AB4923711B3 /* SFUIDisplay-Regular.ttf in Resources */,
+				E557C11BF1994BAD8CB73567 /* SFUIDisplay-Semibold.otf in Resources */,
+				4F05F474674E47C5ACF7E2A5 /* SFUIDisplay-Thin.otf in Resources */,
+				1CBFA69BC0064BEFAC486054 /* SFUIDisplay-Ultralight.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
