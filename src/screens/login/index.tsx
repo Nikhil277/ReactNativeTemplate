@@ -10,6 +10,8 @@ import {
   TouchableWithoutFeedback,
 } from 'react-native';
 import Snackbar from 'react-native-snackbar';
+import {useDispatch} from 'react-redux';
+import {login} from '../../redux/reducers/authenticationReducer';
 import {colors, Images} from '../../themes';
 import {loginValidation} from '../../utilities/formValidations';
 import strings from '../../utilities/strings';
@@ -18,6 +20,7 @@ import {styles} from './style';
 export const Login = () => {
   const [email, setEmail] = useState('nikhil@gmail.com');
   const [password, setPassword] = useState('123456');
+  const dispatch = useDispatch();
 
   const emailChanged = (text: string) => {
     setEmail(text);
@@ -53,6 +56,7 @@ export const Login = () => {
     // Not calling actual api, just mocking an asynchronous operation
     if (email === 'nikhil@gmail.com' && password === '123456') {
       // success
+      dispatch(login());
     } else {
       Snackbar.show({
         text: 'Wrong credentials',

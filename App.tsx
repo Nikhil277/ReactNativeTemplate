@@ -9,23 +9,15 @@
  */
 
 import React from 'react';
-import {View, StatusBar, useColorScheme} from 'react-native';
-import {Colors} from 'react-native/Libraries/NewAppScreen';
-import {Login} from './src/screens/login';
+import {Provider} from 'react-redux';
+import AppContainer from './src/navigation';
+import store from './src/redux/store';
 
 const App = () => {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    flex: 1,
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
   return (
-    <View style={backgroundStyle}>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <Login />
-    </View>
+    <Provider store={store}>
+      <AppContainer />
+    </Provider>
   );
 };
 
