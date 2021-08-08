@@ -12,3 +12,7 @@ const navigationConfig = {
 };
 
 export default navigationConfig;
+
+export type RootStackParamList = {
+  Home: undefined;
+};
