@@ -2,6 +2,7 @@
 import {apiEndpoints} from './config';
 import type {APIDataType} from './config';
 import Config from 'react-native-config';
+import axios from 'axios';
 
 export const apiManager = async ({
   params,
@@ -30,10 +31,9 @@ export const apiManager = async ({
   }
 
   return new Promise((resolve, reject) => {
-    fetch(apiURL, fetchParams)
-      .then(response => response.json())
+    axios(apiURL, fetchParams)
       .then(responseData => {
-        resolve(responseData);
+        resolve(responseData.data);
       })
       .catch(function (error) {
         console.log('APIManager error', error);
