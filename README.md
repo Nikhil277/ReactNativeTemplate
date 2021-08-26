@@ -15,8 +15,6 @@ install! 'cocoapods',
 - Delete node_modules
 - Delete Pods folder
 - Delete pods.lock
-
-—————————————————
 ### Other steps
 
 Making sure only one node exists
@@ -54,12 +52,12 @@ Making sure only one node exists
             - index.js
             - style.js
     - **resources**
-        - [ ] fonts - Custom fonts // To change, replace the fonts and then `npx react-native link`
-        - [ ] images - icons and images seperated by screen
+        - fonts - Custom fonts // To change, replace the fonts and then `npx react-native link`
+        - images - icons and images seperated by screen
     - **themes**
-        - [ ] colors - contains color constants
-        - [ ] fonts - font sizes and family
-        - [ ] images - indexing the assets added
+        - colors - contains color constants
+        - fonts - font sizes and family
+        - images - indexing the assets added
     - **utilities**
         - asyncStore - to save and fetch from async store
         - constants - all constant values in the app
@@ -72,3 +70,10 @@ Making sure only one node exists
 - Navigation Library: [react-navigation](https://reactnavigation.org)
 - Unit Testing: [jest](https://jestjs.io/docs/tutorial-react-native) & [react-native-testing-library](https://github.com/callstack/react-native-testing-library)
 - State Management: [Redux](https://redux.js.org)
+
+### TODO
+
+- [ ] add test cases for api
+- [ ] add a detail page
+- [ ] integrate any one redux middlewares
+- [ ] add fastlane and configure for white-labeling
