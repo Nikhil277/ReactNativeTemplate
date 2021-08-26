@@ -1,7 +1,7 @@
 const strings = {
   login: {
     title: 'LOGIN',
-    userNamePlaceholder: 'Username',
+    emailPlaceholder: 'Email',
     passwordPlaceholder: 'Password',
     loginButton: 'Login',
     enterNewPassword: 'Please enter a new password',
@@ -10,7 +10,6 @@ const strings = {
     passwordMismatch: 'Password mismatch',
     enterEmail: 'Please enter email id',
     incorrectEmail: 'Invalid email id',
-    enterUserName: 'Please enter a username',
     enterPassword: 'Please enter your password',
     enterName: 'Please enter your name',
   },

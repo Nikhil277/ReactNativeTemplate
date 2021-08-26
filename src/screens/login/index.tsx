@@ -9,13 +9,13 @@ import {
   View,
   TouchableWithoutFeedback,
 } from 'react-native';
-import Snackbar from 'react-native-snackbar';
 import {useDispatch} from 'react-redux';
 import {login} from '../../redux/reducers/authenticationReducer';
 import {colors, Images} from '../../themes';
 import {loginValidation} from '../../utilities/formValidations';
 import strings from '../../utilities/strings';
 import {styles} from './style';
+import Snackbar from 'react-native-snackbar';
 
 export const Login = () => {
   const [email, setEmail] = useState('nikhil@gmail.com');
@@ -45,7 +45,7 @@ export const Login = () => {
       }
       Snackbar.show({
         text: errorMesage,
-        duration: Snackbar.LENGTH_LONG,
+        duration: 2000,
         backgroundColor: colors.error,
         textColor: colors.altTitle,
       });
@@ -54,7 +54,7 @@ export const Login = () => {
 
   const invokeLoginApi = () => {
     // Not calling actual api, just mocking an asynchronous operation
-    if (email === 'nikhil@gmail.com' && password === '123456') {
+    if (email === '' && password === '') {
       // success
       dispatch(login());
     } else {
@@ -79,7 +79,7 @@ export const Login = () => {
               style={styles.textFields}
               onChangeText={emailChanged}
               value={email}
-              placeholder="Username"
+              placeholder={strings.login.emailPlaceholder}
             />
           </View>
           <View style={styles.textFieldContianer}>
@@ -87,7 +87,7 @@ export const Login = () => {
               style={styles.textFields}
               onChangeText={passwordChange}
               value={password}
-              placeholder="Password"
+              placeholder={strings.login.passwordPlaceholder}
               keyboardType="default"
             />
           </View>
