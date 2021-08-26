@@ -71,6 +71,15 @@ Making sure only one node exists
 - Unit Testing: [jest](https://jestjs.io/docs/tutorial-react-native) & [react-native-testing-library](https://github.com/callstack/react-native-testing-library)
 - State Management: [Redux](https://redux.js.org)
 
+### Running the app
+
+1. Clone the repo
+2. perform `yarn install` and `pod install` for iOS
+3. rename `.env_copy` to `.env`
+    - Make an account in [Rapid API](https://rapidapi.com/apidojo/api/tasty/)
+    - Get API Key and Host Key and set the keys to `RAPID_API_KEY` & `RADPI_API_HOST`
+4. now run the app and it should be working.
+
 ### TODO
 
 - [ ] add test cases for api
