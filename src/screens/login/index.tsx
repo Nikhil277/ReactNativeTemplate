@@ -54,8 +54,9 @@ export const Login = () => {
 
   const invokeLoginApi = () => {
     // Not calling actual api, just mocking an asynchronous operation
-    if (email === '' && password === '') {
+    if (email === 'nikhil@gmail.com' && password === '123456') {
       // success
+      console.log('login Success');
       dispatch(login());
     } else {
       Snackbar.show({

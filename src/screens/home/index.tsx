@@ -18,6 +18,7 @@ type Props = {
 export const Home = ({navigation}: Props) => {
   const [dataList, setDataList] = useState([]);
   const dispatch = useDispatch();
+  console.log('Home screen reached');
 
   React.useLayoutEffect(() => {
     navigation.setOptions({
