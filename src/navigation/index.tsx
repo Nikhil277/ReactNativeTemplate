@@ -1,10 +1,10 @@
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import React, {FC} from 'react';
-import {styles} from './style';
+import React from 'react';
 import HomeStack from './homeStack';
 import OnboardingStack from './onboardingStack';
 import {useSelector} from 'react-redux';
+import {RootState} from '../redux/reducers';
 
 const RootStack = createNativeStackNavigator();
 
@@ -20,7 +20,9 @@ const AppContainer = () => {
 };
 
 const RootStackScreen = () => {
-  const isLoggedIn = useSelector(state => state.authentication.isLoggedIn);
+  const isLoggedIn = useSelector(
+    (state: RootState) => state.authenticationReducer.isLoggedIn,
+  );
   console.log(isLoggedIn);
   return (
     <RootStack.Navigator>

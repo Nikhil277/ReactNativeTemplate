@@ -58,6 +58,7 @@ A template for React-Native.
 ### Troubleshooting in RN version 64
 
 Do this when you have this [issue](https://github.com/react-native-community/upgrade-support/issues/138)
+
 Make sure none of the parent folders containing the project has spaces in them.
 
 - Pod UDID duplicates:

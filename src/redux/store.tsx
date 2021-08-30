@@ -1,8 +1,11 @@
 import {configureStore} from '@reduxjs/toolkit';
-import authenticationReducer from './reducers/authenticationReducer';
+import {rootReducer} from './reducers';
 
-export default configureStore({
-  reducer: {
-    authentication: authenticationReducer,
-  },
-});
+// Since we are using reduxjs toolkit, thunk is added as default middleware.
+export default function configureAppStore() {
+  const store = configureStore({
+    reducer: rootReducer,
+  });
+
+  return store;
+}
