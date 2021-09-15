@@ -52,7 +52,7 @@ A template for React-Native.
 
 - [ ] add test cases for api
 - [ ] add a detail page
-- [ ] integrate any one redux middlewares
+- [ X ] integrate any one redux middlewares
 - [ ] add fastlane and configure for white-labeling
 
 ### Troubleshooting in RN version 64
